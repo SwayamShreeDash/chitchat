@@ -1,0 +1,22 @@
+
+//ADD YOUR FIREBASE LINKS HERE
+const firebaseConfig = {
+      apiKey: "AIzaSyA0qQ6XUhyZ8DYsXLl0HGOFszVN8kEXvN4",
+      authDomain: "kwitter-b575f.firebaseapp.com",
+      projectId: "kwitter-b575f",
+      storageBucket: "kwitter-b575f.appspot.com",
+      messagingSenderId: "80252604863",
+      appId: "1:80252604863:web:04f40c116dbefb2ee9510a"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+function getData() {firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("output").innerHTML = "";snapshot.forEach(function(childSnapshot) {childKey  = childSnapshot.key;
+       Room_names = childKey;
+      //Start code
+
+      //End code
+      });});}
+getData();
+0

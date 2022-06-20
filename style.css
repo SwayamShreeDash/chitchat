@@ -1,0 +1,27 @@
+button{
+    border-color: greenyellow;
+    border-style: dotted;
+    cursor: pointer;
+    color: purple;
+    width: 85px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: lightgreen;
+}
+body
+{
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/708/352/small/holographic-fantasy-rainbow-unicorn-background-with-clouds-pastel-color-sky-magical-landscape-abstract-fabulous-pattern-cute-candy-wallpaper-vector.jpg");
+}
+h1{
+    color: red;
+    text-decoration: underline;
+}
+.logo{
+    width: 400px;
+	margin-top: 30px;
+	border-radius: 230px;
+    border-color: orange;
+    border-style: solid;
+}
